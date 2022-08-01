@@ -1,0 +1,9 @@
+[[main]]
+name = "Articles"
+pageRef = "posts"
+weight = 10
+
+[[main]]
+name = "Projets"
+pageRef = "projects"
+weight = 20
