@@ -4,10 +4,12 @@ languageName = "English"
 isoCode = "en"
 weight = 1
 rtl = false
+contentDir = "content/en"
+baseURL = "https://en.nkirchho.dev"
 
 title = "nkirchho.dev"
 #logo = "images/plage.jpg"
-description = "A Software Engineer discovers the world"
+description = "A Software Engineer discovering the world"
 copyright = "2022 nkirchho.dev"
 
 dateFormat = "2 January 2006"
@@ -15,7 +17,7 @@ dateFormat = "2 January 2006"
 [author]
   name = "Nicolas Kirchhoffer"
   image = "images/plage.jpg"
-  headline = "A Software Engineer discovers the world"
+  headline = "A Software Engineer discovering the world"
   # bio = "A little bit about you"
   links = [
      { email = "mailto:nicolas@nkirchho.dev" },

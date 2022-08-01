@@ -11,19 +11,14 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
+  name = "Articles"
   pageRef = "posts"
   weight = 10
 
 [[main]]
-  name = "Categories"
-  pageRef = "categories"
+  name = "Projects"
+  pageRef = "projects"
   weight = 20
-
-[[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
 
 
 # -- Footer Menu --

@@ -4,6 +4,8 @@ languageName = "Français"
 isoCode = "fr"
 weight = 0
 rtl = false
+contentDir = "content/fr"
+baseURL = "https://nkirchho.dev"
 
 title = "nkirchho.dev"
 #logo = "images/plage.jpg"

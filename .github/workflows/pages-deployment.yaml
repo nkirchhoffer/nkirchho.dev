@@ -17,11 +17,19 @@ jobs:
           hugo-version: '0.101.0'
       - name: Build
         run: hugo --minify
-      - name: Publish
+      - name: Publish French
         uses: cloudflare/pages-action@1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_USER_ID }}
-          projectName: nkirchho-dev # e.g. 'my-project'
-          directory: public # e.g. 'dist'
+          projectName: nkirchho-dev-fr # e.g. 'my-project'
+          directory: public/fr # e.g. 'dist'
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish English
+        uses: cloudflare/pages-action@1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_USER_ID }}
+          projectName: nkirchho-dev-en # e.g. 'my-project'
+          directory: public/en # e.g. 'dist'
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
