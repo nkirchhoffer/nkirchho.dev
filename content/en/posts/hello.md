@@ -26,4 +26,4 @@ No database, no Java, no PHP in the way to give the maintainers headaches. But I
 
 By the way, this website is fully open-source and you can retrieve its source code there : [https://github.com/nkirchhoffer/nkirchho.dev](https://github.com/nkirchhoffer/nkirchho.dev)
 
-*Please note that English is not my first language and I also have a French edition of this website at [https://fr.nkirchho.dev](https://fr.nkirchho.dev)
+*Please note that English is not my first language and I also have a French edition of this website at [https://fr.nkirchho.dev](https://fr.nkirchho.dev)*
