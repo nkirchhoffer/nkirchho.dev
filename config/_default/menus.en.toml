@@ -29,3 +29,6 @@
 #   name = "Tags"
 #   pageRef = "tags"
 #   weight = 10
+[[footer]]
+name = ":flag_fr:"
+url = "https://fr.nkirchho.dev"

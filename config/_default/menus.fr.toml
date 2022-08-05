@@ -7,3 +7,7 @@ weight = 10
 name = "Projets"
 pageRef = "projects"
 weight = 20
+
+[[footer]]
+name = ":flag_gb:"
+url = "https://en.nkirchho.dev"
