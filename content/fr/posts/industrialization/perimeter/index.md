@@ -1,21 +1,25 @@
 ---
-title: "Commercialiser un projet personnel : Périmètre"
+title: "Commercialiser un projet personnel - Périmètre"
 date: 2022-08-24T16:05:30+02:00
 draft: false
 showTableOfContents: true
+tags: ['industrialization']
+description: "Vous avez eu une idée d'application de génie et souhaitez l'industrialiser ? Vous êtes au bon endroit 😊"
+showTaxonomies: true
 ---
+Les projets personnels sont hype en 2022, ils permettent de construire un portfolio et d'ajouter de la valeur à nos dossiers pour le recrutement, ou ils sont simplement devenus une passion pour nombre de gens, comme moi, qui s'adonnent à bricoler dans leur temps libre. Mais, parfois on sent avoir une bonne idée, à tel point qu'on peut vouloir l'industrialiser pour la commercialiser. Et cette série d'articles, illustrée d'exemples et d'expériences vécues, va relater le processus de A à Z !
+
+{{< alert >}}
+Même si ce premier article ne l'est pas forcément, cette série d'articles est destinée à un public de développeurs qui aiment bien toucher à tout. Tous les concepts techniques ne seront pas explicités à 100%
+{{< /alert >}}
 
 ## Landing Zone
 
-Les projets personnels sont tendance dans le domaine de l'IT depuis quelques temps, et parfois, ces projets personnels, qui partent d'une idée simple et précise à un instant donné, deviennent un peu plus concrets.
-
-C'est ce qui est en train d'arriver à un de mes projets, sur lequel j'ai travaillé pour mon anniversaire cette année. L'idée était simple : je voulais permettre aux personnes venant à ma soirée d'anniversaire d'ajouter des musiques à la file d'attente de mon compte Spotify, afin de m'affranchir de cette tâche, parfois ennuyante je dois l'admettre.
-
-Le besoin réel de ce projet était très égoïste, non seulement c'était dans le cadre de ma soirée d'anniversaire, mais aussi pour m'affranchir d'une tâche qui me pesait lourd au cours de ces soirées. Mais durant cette fameuse soirée, j'ai reçu pas mal d'avis positifs et de nouveaux besoins pouvant intervenir dans le cadre de ce projet.
+En début d'année, pour mon anniversaire, j'avais une idée folle mais très facilement réalisable : je voulais supprimer la tâche fastidieuse d'ajouter les musiques que me suggéraient mes amis à la file d'attente Spotify pendant nos soirées. Après avoir réalisé un prototype que j'ai mis en pratique à cette soirée, j'étais très satisfait et enthousiaste par rapport au résultat concret, et j'ai eu beaucoup de retours positifs et d'idées d'améliorations.
 
 Après m'être approché de potentiels clients et d'autres enthousiastes, j'ai donc décidé d'industrialiser ce projet, et cette série d'articles vous donnera mon retour d'expérience sur la chose !
 
-Cette série adressera principalement le défi technique derrière une mise en production, particulièrement en partant d'un prototype brouillon réalisé rapidement. Mais j'ai à coeur de transmettre une vision globale autour d'une telle démarche, donc ce premier article concernera principalement la mise en place d'un périmètre autour de l'application pour la situer sur un marché. 
+Cette série adressera principalement le défi technique derrière une mise en production, particulièrement en partant d'un prototype brouillon réalisé rapidement. Mais j'ai à coeur de transmettre une vision globale autour d'une telle démarche, donc ce premier article concernera principalement la mise en place d'un **périmètre** autour de l'application pour la situer sur un marché. 
 
 {{< badge >}}
 Application
@@ -112,7 +116,7 @@ Il n'y a aucune limite à un vrai cahier des charges, tout ce que vous souhaitez
 
 Il est même recommandé d'inclure votre charte graphique dans votre cahier des charges, mais votre étude de marché est l'étape qui va réellement orienter votre charte graphique. Cependant, il est toujours bon de considérer un nom de marque potentiel, de vérifier sa disponibilité et d'acheter les noms de domaine correspondant assez vite.
 
-## Étape 3 : Effectuez une étude de marché
+## Étape 3 : Réaliser une étude de marché
 
 Maintenant que le périmètre de votre produit final est bien défini, vous pouvez attaquer l'étape déterminante de votre projet. Sans elle, vous naviguez un peu sans boussole, à voguer sur des eaux troubles dans lesquelles vous vous perdrez facilement.
 
