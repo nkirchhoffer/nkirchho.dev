@@ -22,7 +22,7 @@ Après m'être approché de potentiels clients et d'autres enthousiastes, j'ai d
 Cette série adressera principalement le défi technique derrière une mise en production, particulièrement en partant d'un prototype brouillon réalisé rapidement. Mais j'ai à coeur de transmettre une vision globale autour d'une telle démarche, donc ce premier article concernera principalement la mise en place d'un **périmètre** autour de l'application pour la situer sur un marché. 
 
 {{< badge >}}
-Application
+Exemple
 {{< /badge >}}
 
 Pour avoir des exemples concrets tout en n'interférant pas avec mon projet réel, j'ai mis au point une application basique qui va nous servir d'exemple pour chaque étape de cette série d'articles. Il s'agit d'un site web permettant de créer des to-do lists et de les partager avec des personnes à l'aide d'un lien et d'un identifiant unique, dont voici un aperçu.
@@ -68,7 +68,7 @@ Voici le framework que j'ai appliqué à mon projet :
   - Une charte graphique ?
 
 {{< badge >}}
-Application
+Exemple
 {{< /badge >}}
 Appliqué à notre chère application de to-do listes, voici l'état de l'art à cette étape : 
 - Fonctionnalités déjà implémentées
@@ -108,7 +108,7 @@ Voici comment j'ai rédigé mon cahier des charges :
   - En tant que membre de l'équipe du produit, je souhaite consulter le chiffre d'affaires du produit sur une période donnée
 
 {{< badge >}}
-Application
+Exemple
 {{< /badge >}}
 Le cahier des charges appliqué à mon prototype d'exemple est disponible ici : [Todoing.pdf](/posts/industrialization/perimeter/Todoing.pdf)
 
@@ -138,7 +138,7 @@ Si en tous points, votre produit est similaire à celui d'un de vos concurrents,
 Si vous trouvez une nuance que vous jugez pertinente et qui peut devenir un réel argument de vente dans le futur, alors votre produit est légitime et vous pouvez continuer le processus d'industrialisation sans grandement changer votre cahier des charges !
 
 {{< badge >}}
-Application
+Exemple
 {{< /badge >}}
 Pour les listes de to-do, la concurrence est rude ! Il existe beaucoup de produits répondant à un cahier des charges similaires.
 
