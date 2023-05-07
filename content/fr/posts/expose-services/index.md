@@ -7,7 +7,7 @@ tags: ['homelab', 'cloudflare', 'kubernetes', 'metallb']
 description: "Vous n'avez pas envie d'ouvrir les ports de votre connexion Internet personnelle ? Lisez cet article!"
 showTaxonomies: true
 ---
-Le but ultime pour un ingénieur Cloud et un administrateur système qui s'intéresse au DevOps est de déployer un cluster Kubernetes sur ses machines pour automatiser la gestion de cycle des applications. 
+Le but ultime pour un-e ingénieur-e Cloud et un-e administrateur-trice système qui s'intéresse au DevOps est de déployer un cluster Kubernetes sur ses machines pour automatiser la gestion de cycle des applications. 
 
 Seulement, en bare metal, cette tâche peut s'avérer laborieuse et on ne dispose pas de tous les outils du cloud public pour nous aider...
 
@@ -17,7 +17,7 @@ Dans cet article, je vais tenter de vous donner une solution correcte pour expos
 
 ## Le problème
 
-Tous ceux qui ont tenté de déployer un cluster Kubernetes sur une infrastructure bare-metal ont connu le statut "\<pending\>" interminable sur les services LoadBalancer... et les migraines qui ont suivi.
+Celleux qui ont déjà tenté de déployer un cluster Kubernetes sur une infrastructure bare-metal ont sûrement connu le statut "\<pending\>" interminable sur les services LoadBalancer... et les migraines qui ont suivi.
 
 {{< figure
     src="/posts/expose-services/svc-pending.png"
