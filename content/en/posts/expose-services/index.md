@@ -41,8 +41,6 @@ To install MetalLB, please refer to the documentation here : [MetalLB, bare meta
 
 MetalLB (L2 mode) uses [Address Resolution Protocol](https://en.wikipedia.org/wiki/Address_Resolution_Protocol) (ARP) to associate a [Service](https://kubernetes.io/docs/concepts/services-networking/service/) to a specific IP address. This allows Kubernetes to balance the load using the internal `kube-proxy` component that establishes a connection to a specific Pod.  
 
-En pratique, imaginons que l'on dise à MetalLB d'utiliser la plage d'adresses 10.0.0.100-10.0.0.200 pour exposer les services, et que le service `nginx` se voit attribué l'adresse `10.0.0.100` : 
-
 In practice, we tell MetalLB to use a specific pool of IP addresses, 10.0.0.100-10.0.0.200, to expose services. The `nginx` service would have its External IP set to `10.0.0.100`.
 
 *This diagram might not be easily readable if you are using the Dark theme. You can switch to Light theme at the bottom of this page. Sorry for the inconvenience, I am currently trying to fix it.*
@@ -131,7 +129,7 @@ This service is free for 50 users maximum, but you would need to indicate a Debi
 
 To set this service up, you would need to configure the NS fields of your domain name to the Cloudflare servers. Follow the steps on [Cloudflare Dash](https://dash.cloudflare.com). You can then go to the "Zero Trust" category and choose a plan (the free one preferably). Then go to the `Tunnels` page under the `Access` category.
 
-CLick on the `Create a tunnel` button, give a name to your tunnel (for example: home), and choose an install method for the agent. I recommend using Docker and to host it outside of your Kubernetes cluster, so that, if your cluster goes down, the tunnel remains active. Please note that if the agent is down, so is your website.
+Click on the `Create a tunnel` button, give a name to your tunnel (for example: home), and choose an install method for the agent. I recommend using Docker and to host it outside of your Kubernetes cluster, so that, if your cluster goes down, the tunnel remains active. Please note that if the agent is down, so is your website.
 
 When the tunnel status becomes `HEALTHY`, you can associate a subdomain (or your main domain) to a private IP address (and even to a specific port if necessary). Cloudflare will host a proxy to your local address via a subdomain, then configure a CNAME field to expose it to your (sub)domain.
 
