@@ -3,6 +3,8 @@ title: "Exposer des services Kubernetes sur Internet depuis chez soi"
 date: 2023-05-06T00:00:00+02:00
 draft: false
 showTableOfContents: true
+cover: "/posts/expose-services/cover.png"
+coverAlt: "Couverture générée par Midjourney affichant une île remplie d'immeubles à l'esthétique proche de serveurs informatiques, avec un bateau accosté à ses côtes"
 tags: ['homelab', 'cloudflare', 'kubernetes', 'metallb']
 description: "Vous n'avez pas envie d'ouvrir les ports de votre connexion Internet personnelle ? Lisez cet article!"
 showTaxonomies: true
