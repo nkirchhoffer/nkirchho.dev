@@ -3,8 +3,6 @@ title: "L'enjeu de la maîtrise des coûts dans le cloud public"
 date: 2023-05-10T00:00:00+02:00
 draft: false
 showTableOfContents: true
-cover: "/posts/expose-services/cover.png"
-coverAlt: "Couverture générée par Midjourney affichant une île remplie d'immeubles à l'esthétique proche de serveurs informatiques, avec un bateau accosté à ses côtes"
 tags: ['serverless', 'architecture', 'microservices', 'overengineering']
 description: "En 2023, nombreuses sont les entreprises à effectuer des changements d'infrastructure suite aux coûts du cloud public"
 showTaxonomies: true
